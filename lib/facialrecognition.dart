@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:smartglasses/RecognizeFace.dart';
 
 // import 'package:smartglasses/RegisterFace.dart';
-import 'package:smartglasses/registerFace1.dart';
+// import 'package:smartglasses/registerFace1.dart';
 import 'ML/Recognition.dart';
 import 'RegisterFace.dart';
 
