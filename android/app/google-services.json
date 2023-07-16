@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "864088923493",
+    "project_id": "smart-glasses-e0331",
+    "storage_bucket": "smart-glasses-e0331.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864088923493:android:60701dfb8a73111b5ed58c",
+        "android_client_info": {
+          "package_name": "com.example.smartglasses"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864088923493-8cdm7nu0kh57jfttpqcbqltbmdvs4qnu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpSKEyIjG9w6Dv1MQYOWeptbwGO6uvrLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864088923493-8cdm7nu0kh57jfttpqcbqltbmdvs4qnu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
