@@ -51,8 +51,7 @@ class Recognizer {
       _inputType = interpreter.getInputTensor(0).type as TfLiteType;
       _outputType = interpreter.getOutputTensor(0).type as TfLiteType;
 
-      _outputBuffer =
-          TensorBuffer.computeFlatSize(_outputShape) as TensorBuffer;
+     _outputBuffer = TensorBuffer.createFixedSize(_outputShape, _outputType);
       _probabilityProcessor =
           TensorProcessorBuilder().add(postProcessNormalizeOp).build();
     } catch (e) {
@@ -73,7 +72,7 @@ class Recognizer {
 
   Recognition recognize(Image image, Rect location) {
     final pres = DateTime.now().millisecondsSinceEpoch;
-    // _inputImage = TensorImage(_inputType );
+    _inputImage = TensorImage(_inputType );
     _inputImage.loadImage(image);
     _inputImage = _preProcess();
     final pre = DateTime.now().millisecondsSinceEpoch - pres;
